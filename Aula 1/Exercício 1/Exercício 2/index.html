@@ -3,7 +3,9 @@
         <meta charset="utf-8">
         <title>Raul</title>
         <link rel = "stylesheet" href = "style.css">
+        <script type="text/javascript" src="scripts.js"></script>
     </head>
+        
     <body>
         
         <p class = "nome"> Raul de Castro Silva Santos </p>
@@ -22,7 +24,22 @@
             <p class = "periodo"> Período que estou cursando: \(-_- )/ </p>
             
             <a href="http://www.pucpcaldas.br/" class = "periodo"> Puc Poços de Caldas</a>
-        </div>      
+        </div>  
+        
+        <div class="index4">
+            <p class="inputField">Seu nome:</p>
+            <input id="nome" placeholder="Insira seu nome"/>
+
+            <p class="inputField">Sua idade:</p>
+            <div class="idadeInput">
+                <button class="botaoIdade" onclick="decrementaIdade()">-</button>
+                <input id="idade" class="inputIdade" value=1 disabled/>
+                <button class="botaoIdade" onclick="incrementaIdade()">+</button>
+            </div>        
+        
+        </div>    
+        
+        <button class="botaoFinalizar" onclick="clique_botao()">Finalizar</button>
     
     </body>
 

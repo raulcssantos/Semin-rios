@@ -4,7 +4,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+   
 }
 
 .index2{
@@ -27,6 +27,69 @@ body{
     padding: 20px;
     margin: 20px
 }
+
+.index4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#474f63;
+    border-radius: 15px 50px;
+    padding: 15px;
+}
+
+.idadeField {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botaoIdade {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #1a1d24;
+    border-radius: 4px;
+    text-align: center;
+    color: #f0f0f0;
+    cursor: pointer;
+    height: 24px;
+    width: 24px;
+}
+
+.inputIdade {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1a1d24;
+    border-radius: 4px;
+    height: 20px;
+    width: 30px;
+    text-align: center;
+    font-size: 14px;
+    padding: 0px 3px;
+}
+    
+ .botaoFinalizar{
+    font-family: 'Segoe UI';
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    background-color: #414462;
+    border-radius: 4px;
+    text-align: center;
+    color: #f0f0f0;
+    cursor: pointer;
+    height: 24px;
+    width: 80px;
+}  
+    
+     
+    
+   
 
 .periodo{
     color:#f0f0f0 ;
@@ -55,6 +118,13 @@ body{
     font-size: 22px;
     font-family: 'Segoe UI';
     font-weight: lighter;
+    font-size: 22px;
+}
+
+.inputField{
+    color:#f0f0f0;
+    font-family: 'Segoe UI';
+    font-weight: bold;
 }
 
 
