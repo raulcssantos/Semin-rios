@@ -1,0 +1,32 @@
+#titulo {
+    margin: 0px 0px 0px 0px;
+    padding: 40px 0px;
+    background-color: midnightblue;
+    color: white;
+    font-family: Verdana;
+    font-weight: bold;
+    
+}
+
+.oQueGosto{
+
+    font-size: x-large;
+    color: black;
+    font-family: 'Segoe UI';
+}
+
+
+.paragrafo {
+    font-size: larger;
+    color: honeydew;
+    background-color:midnightblue;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    padding: 20px 20px 20px 20px;
+
+}
+
+body{
+
+    background-color:lightblue;
+}
