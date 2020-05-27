@@ -31,10 +31,12 @@ $(document).ready(function() {
         if(!toba)
             $("#tobaInsert").addClass("erro");
 
-        if(nome && idade && altura && truco && toba)
+        if(nome && idade && altura && truco && toba){
             $("#confirma").show();
+            alert("Seu toba foi cadastrado para aposta!")
+            }   
 
-        alert("Seu toba foi cadastrado para aposta!")
+        
         
     })
 
