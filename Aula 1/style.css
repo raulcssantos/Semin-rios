@@ -46,7 +46,6 @@ body{
 
 .botaoIdade {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
     background-color: #1a1d24;
@@ -57,8 +56,9 @@ body{
     height: 24px;
     width: 24px;
 }
+    
 
-.inputIdade {
+.idadeInput {
     display: flex;
     align-items: center;
     justify-content: center;

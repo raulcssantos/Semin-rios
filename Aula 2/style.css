@@ -1,0 +1,88 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1a1d2b;
+    font-family: 'Segoe UI';
+    color: #f0f0f0;
+    font-size: 22px;
+}
+    
+.erro {
+    border-radius: 6px;
+    background-color: rgb(100, 43, 60);
+}
+    
+
+.field {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 20vw;
+    height: 25px;
+    margin: 5px;
+}
+
+.input{
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 0px 3px;
+    
+}
+
+.fullBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #40486b;
+    border-radius: 15px 50px 30px;
+    box-shadow: 0 0 1em #090b12;
+    padding: 15px;
+    margin: 10px;
+}
+
+.formTitle{
+    font-size: 50px;
+    color: #58a1d1;
+    font-weight: bolder;
+}
+
+.preenchaForm{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.botao{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: bold;
+    background-color: #228f3a;
+    border-radius: 4px;
+    text-align: center;
+    color: #f0f0f0;
+    cursor: pointer;
+    padding: 15px;
+    box-shadow: 0 0 1em #090b12 ;
+}
+
+.confirma {
+    margin: 5px;
+    color: #f0f0f0;
+    font-weight: lighter;
+}
+    
+    
+   
+
+
+
+
+
+
