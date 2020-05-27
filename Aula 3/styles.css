@@ -1,0 +1,27 @@
+.retanguloVerde{
+    background-color: green;
+    width: 200px;
+    height: 70px;
+    margin: 50px;
+}
+
+.retanguloAzul{
+    background-color: blue;
+    width: 200px;
+    height: 70px;
+    margin: 50px;
+}
+
+.retanguloVermelho{
+    background-color: red;
+    width: 200px;
+    height: 70px;
+    margin: 50px;
+}
+
+.retanguloAmarelo{
+    background-color: yellow;
+    width: 200px;
+    height: 70px;
+    margin: 50px;
+}
