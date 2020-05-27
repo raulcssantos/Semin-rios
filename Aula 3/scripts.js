@@ -36,6 +36,29 @@ $(document).ready(function () {
         return new Promise(res => setTimeout(res, ms));
     }
 
+    $("#botaoMais").click(function () {
+        var fonte = $("#texto").css("font-size");
+        fonte = parseInt(fonte);
+        if (fonte >= 70)
+            return;
+        
+            fonte = fonte + 2;
+        $("#texto").css({
+            "font-size" : fonte
+            });
+    });
+        
+    $("#botaoMenos").click(function () {
+        var fonte = $("#texto").css("font-size");
+        fonte = parseInt(fonte);
+        if (fonte <= 8)
+            return;
+        
+            fonte = fonte - 2;
+        $("#texto").css({
+            "font-size" : fonte
+            });
+    });
 
 
 
