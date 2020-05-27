@@ -15,7 +15,7 @@ function incrementaIdade() {
 function decrementaIdade() {
     var idade = document.getElementById("idade").value;
     if (idade > 1){
-        idade--;
+        idade --;
     }
 
     document.getElementById("idade").value = idade;
