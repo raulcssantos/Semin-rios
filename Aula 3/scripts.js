@@ -60,6 +60,13 @@ $(document).ready(function () {
             });
     });
 
+    $("#set").click(function () {
+        var width = $("#width").val();
+        var height = $("#height").val();
+        console.log('Heeeeeeyeeeyeeeyeyeye');
 
+        $("#heman").attr("width", width);
+        $("#heman").attr("height", height);
+    });
 
 });
